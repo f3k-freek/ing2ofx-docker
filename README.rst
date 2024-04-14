@@ -37,10 +37,6 @@ Before you begin, ensure you have Docker and Docker Compose installed on your sy
 
    The script will find all CSV files in the `/input` folder, convert them to OFX format, and place the resulting files in the `/ofx` directory.
 
-## Customization
-
-You can modify the Dockerfile or the `docker-compose.yml` if needed, to adjust the environment or script execution according to your specific requirements.
-
 ## Contributing
 
 Contributions to this project are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
