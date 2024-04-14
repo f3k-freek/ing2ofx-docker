@@ -4,10 +4,10 @@ services:
   app:
     build: .
     volumes:
-      - ./csv:/csv
+      - ./input:/app/input
       - ./ofx:/app/ofx
     command: >
-      /bin/bash -c 'shopt -s nullglob; files=(/csv/*.csv); if [ $${#files[@]} -eq 0 ]; then
+      /bin/bash -c 'shopt -s nullglob; files=(/app/input/*.csv); if [ $${#files[@]} -eq 0 ]; then
         echo "No CSV files found.";
       else
         for file in "$${files[@]}"; do
