@@ -14,7 +14,7 @@
     
     1. **Clone the Repository**:
        ```
-       git clone https://github.com/[your-username]/ing2ofx-docker.git
+       git clone git@github.com:f3k-tech/ing2ofx-docker.git
        cd ing2ofx-docker
        ```
     
