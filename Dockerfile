@@ -2,7 +2,7 @@ FROM python:2.7-slim
 
 WORKDIR /app
 
-COPY . /app
+COPY ./ing2ofx.py /app/
 
 COPY ./scripts/ /usr/local/bin/
 RUN chmod +x /usr/local/bin/*.sh
