@@ -1,6 +1,6 @@
 # ing2ofx-docker
 
-This fork of [ing2ofx](https://github.com/chmistry/ing2ofx/) adds Docker support and an automated script for processing multiple ING CSV files. The script automatically finds all 'ING CSV' files in the `/input` directory, converts them to OFX format, and outputs them to the `/ofx` directory.
+This fork of [ing2ofx](https://github.com/chmistry/ing2ofx/) adds Docker support and an automated script for processing multiple ING CSV files. The script automatically finds all 'ING CSV' files in the `/input` directory, converts them to OFX format, and outputs them to the `/ofx` directory. These OFX files can then be used in a program like GnuCash (www.gucash.org).
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ Before you begin, ensure you have Docker and Docker Compose installed on your sy
 
 1. **Clone the Repository**:
    ```
-   git clone git@github.com:f3k-tech/ing2ofx-docker.git
+   git clone https://github.com/f3k-tech/ing2ofx-docker.git
    cd ing2ofx-docker
    ```
 
