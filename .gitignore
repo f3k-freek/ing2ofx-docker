@@ -1,3 +1,5 @@
 ofx
 input
 .DS_Store
+*.csv
+*.ofx
